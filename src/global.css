@@ -55,6 +55,16 @@ body {
   line-height: inherit;
 }
 
-.field-input {
+.field-group {
+  margin-top: 20px
+}
+
+.field-group .field-input {
   padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.invalid-feedback.error {
+  color: red
 }
