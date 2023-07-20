@@ -14,7 +14,8 @@ export default component$(() => {
         id: "username", // required
         label: "Username", // optional
         classes: ["field-input"],
-        placeholder: 'Username'
+        placeholder: 'Username',
+        autoComplete: 'false',
       },
       prefix: {
         tag: 'div',
@@ -30,7 +31,8 @@ export default component$(() => {
         id: "email", // required
         label: "Email", // optional
         classes: ["field-input"],
-        placeholder: 'Email'
+        placeholder: 'Email',
+        autoComplete: 'false',
       },
       prefix: {
         tag: 'div',
