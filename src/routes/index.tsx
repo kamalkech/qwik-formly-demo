@@ -16,6 +16,7 @@ export default component$(() => {
         classes: ["class-username"],
         placeholder: 'Username'
       },
+      rules: ['required'],
     },
     {
       type: "input", // required
@@ -27,6 +28,7 @@ export default component$(() => {
         classes: ["class-email"],
         placeholder: 'Email'
       },
+      rules: ['required', 'email'],
     },
     {
       type: "checkbox", // required
