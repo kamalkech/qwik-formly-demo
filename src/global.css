@@ -54,3 +54,7 @@ body {
   padding: 0;
   line-height: inherit;
 }
+
+.field-input {
+  padding: 10px;
+}
