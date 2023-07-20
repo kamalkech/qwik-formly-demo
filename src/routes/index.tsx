@@ -13,12 +13,12 @@ export default component$(() => {
         type: 'text',
         id: "username", // required
         label: "Username", // optional
-        classes: ["class-username"],
+        classes: ["field-input"],
         placeholder: 'Username'
       },
       prefix: {
         tag: 'div',
-        classes: ['class1', 'class2'],
+        classes: ['field-group'],
       },
       rules: ['required'],
     },
@@ -29,12 +29,12 @@ export default component$(() => {
         type: 'email',
         id: "email", // required
         label: "Email", // optional
-        classes: ["class-email"],
+        classes: ["field-input"],
         placeholder: 'Email'
       },
       prefix: {
         tag: 'div',
-        classes: ['class1', 'class2'],
+        classes: ['field-group'],
       },
       rules: ['required', 'email'],
     },
@@ -63,7 +63,7 @@ export default component$(() => {
       },
       prefix: {
         tag: 'fieldset',
-        classes: ['class1', 'class2'],
+        classes: ['field-group'],
       }
     },
   ]
