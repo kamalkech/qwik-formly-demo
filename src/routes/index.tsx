@@ -75,7 +75,7 @@ export default component$(() => {
         realtime={true}
         onUpdate={onUpdate}
         onSubmit={onSubmit} />
-      <pre>{JSON.stringify(result, null, 2)}</pre>
+      <pre>{JSON.stringify(result.value, null, 2)}</pre>
     </>
   );
 });
