@@ -16,6 +16,10 @@ export default component$(() => {
         classes: ["class-username"],
         placeholder: 'Username'
       },
+      prefix: {
+        tag: 'div',
+        classes: ['class1', 'class2'],
+      },
       rules: ['required'],
     },
     {
@@ -27,6 +31,10 @@ export default component$(() => {
         label: "Email", // optional
         classes: ["class-email"],
         placeholder: 'Email'
+      },
+      prefix: {
+        tag: 'div',
+        classes: ['class1', 'class2'],
       },
       rules: ['required', 'email'],
     },
