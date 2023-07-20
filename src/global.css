@@ -59,6 +59,11 @@ body {
   margin-top: 20px
 }
 
+.field-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
 .field-group .field-input {
   padding: 10px;
   border-radius: 10px;
