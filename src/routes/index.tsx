@@ -60,10 +60,12 @@ export default component$(() => {
 
   const onUpdate = $((data: any) => {
     console.log('onUpdate', data);
+    result.value = data;
   })
 
   const onSubmit = $((data: any) => {
     console.log('onSubmit', data);
+    result.value = data;
   })
 
   return (
